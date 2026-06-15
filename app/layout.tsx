@@ -4,6 +4,7 @@ import "./globals.css";
 import AOSInit from "@/components/AOSInit";
 import AntdProvider from "@/components/AntdProvider";
 import Header from "@/components/layout/Header/Header";
+import Footer from "@/components/layout/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
         <AntdProvider>
           <Header />
           {children}
+          <Footer />
         </AntdProvider>
       </body>
     </html>
