@@ -1,9 +1,15 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { Button, Drawer, Badge, Space } from 'antd';
-import { MenuOutlined, ShoppingCartOutlined, LoginOutlined, LogoutOutlined, UserOutlined } from '@ant-design/icons';
+import { useState } from "react";
+import Link from "next/link";
+import { Button, Drawer, Badge, Space } from "antd";
+import {
+  MenuOutlined,
+  ShoppingCartOutlined,
+  LoginOutlined,
+  LogoutOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,17 +17,16 @@ export default function Header() {
   const [cartCount, setCartCount] = useState(3);
 
   const navItems = [
-    { label: ' Home', href: '/' },
-    { label: 'Product', href: '/products' },
-    { label: ' About Us', href: '/about' },
-    { label: ' Contact  ', href: '/contact' },
+    { label: " Home", href: "/" },
+    { label: "Product", href: "/products" },
+    { label: " About Us", href: "/about" },
+    { label: " Contact  ", href: "/contact" },
   ];
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">ST</span>
@@ -92,7 +97,7 @@ export default function Header() {
               size="large"
               icon={<MenuOutlined className="text-xl" />}
               onClick={() => setMobileMenuOpen(true)}
-              className="md:hidden"
+              className=" block md:hidden!"
             />
           </div>
         </div>
