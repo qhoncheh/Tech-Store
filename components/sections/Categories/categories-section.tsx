@@ -20,10 +20,11 @@ const categories = [
 export const Categories = () => {
   return (
     <section className="py-20 bg-white"> 
-      <div className="mx-auto max-w-7xl px-6 text-gray-800">
+      <div className="mx-auto max-w-7xl px-6 text-gray-800 text-end">
         <SectionTitle
           title="Shop By Category"
           subtitle="Browse our collections"
+
         />
 
         <Row gutter={[24, 24]} justify="center">
