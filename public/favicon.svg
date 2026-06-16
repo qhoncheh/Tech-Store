@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#2563eb" rx="40"/>
+
+  <!-- Laptop shape -->
+  <g transform="translate(50, 50)">
+    <!-- Laptop screen -->
+    <rect x="10" y="10" width="80" height="60" fill="#ffffff" rx="4" stroke="#1e40af" stroke-width="2"/>
+
+    <!-- Screen content -->
+    <rect x="15" y="15" width="70" height="50" fill="#e0f2fe" rx="2"/>
+    <circle cx="35" cy="30" r="6" fill="#2563eb"/>
+    <circle cx="55" cy="30" r="6" fill="#2563eb"/>
+    <circle cx="75" cy="30" r="6" fill="#2563eb"/>
+    <line x1="20" y1="42" x2="80" y2="42" stroke="#2563eb" stroke-width="1.5"/>
+    <line x1="20" y1="48" x2="70" y2="48" stroke="#2563eb" stroke-width="1.5"/>
+
+    <!-- Laptop base -->
+    <rect x="15" y="68" width="70" height="6" fill="#1e40af" rx="2"/>
+
+    <!-- Laptop stand -->
+    <rect x="40" y="74" width="20" height="12" fill="#1e40af" rx="2"/>
+  </g>
+</svg>

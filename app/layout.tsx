@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Perfect Tech Store",
   description: "Your one-stop shop for the latest tech gadgets",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
