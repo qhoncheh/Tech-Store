@@ -24,7 +24,7 @@ export default function FooterContact() {
         </Text>
 
         <Text style={{ color: "#94a3b8" }}>
-          <EnvironmentOutlined /> Silicon Valley, CA
+          <EnvironmentOutlined /> Berlin, Germany
         </Text>
       </Space>
     </>
