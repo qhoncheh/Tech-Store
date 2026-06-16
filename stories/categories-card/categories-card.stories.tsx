@@ -1,6 +1,5 @@
+import { CategoryCard } from "@/components/sections/Categories/categories-card";
 import type { Meta, StoryObj } from "@storybook/react";
-
-import { CategoryCard } from "./CategoryCard";
 
 const meta: Meta<typeof CategoryCard> = {
   title: "UI/CategoryCard",
